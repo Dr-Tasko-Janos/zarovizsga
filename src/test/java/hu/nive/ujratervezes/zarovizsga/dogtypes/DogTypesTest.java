@@ -1,8 +1,19 @@
 package hu.nive.ujratervezes.zarovizsga.dogtypes;
 
+import org.flywaydb.core.Flyway;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mariadb.jdbc.MariaDbDataSource;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 public class DogTypesTest {
 
- /*   DogTypes dogTypes;
+ DogTypes dogTypes;
 
     @BeforeEach
     void init() throws SQLException {
@@ -27,6 +38,6 @@ public class DogTypesTest {
         assertEquals(9, types.size());
         assertTrue(types.contains("komondor"));
         assertTrue(types.contains("kuvasz"));
-    }*/
+    }
 
 }
