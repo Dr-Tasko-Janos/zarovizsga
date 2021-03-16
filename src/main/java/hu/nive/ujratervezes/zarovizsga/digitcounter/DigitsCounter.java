@@ -1,4 +1,4 @@
-package hu.nive.ujratervezes.zarovizsga.workhours;
+package hu.nive.ujratervezes.zarovizsga.digitcounter;
 
 public class DigitsCounter {
 
